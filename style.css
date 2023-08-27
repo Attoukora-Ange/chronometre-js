@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f2f2f;
+    height: 100Vh;
+}
+body .container{
+    width: 30%;
+    border-radius: 5px;
+    background-color: #cccccc;
+}
+body .container .cadre .affichage_duree{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body .container .cadre .affichage_duree .duree{
+    padding: 5px 15px;
+    font-size: 30px;
+    border: 2px dotted #2f2f2f;
+}
+body .container .cadre .affichage_bouton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+}
+body .container .cadre .affichage_bouton .btn button{
+    font-size: 17px;
+    padding: 5px 13px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #2f2f2f;
+    color: #cccccc;
+}
